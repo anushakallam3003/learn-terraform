@@ -50,3 +50,8 @@ variable "input_value1" {
 }
 
 variable "input_value2" {}
+
+variable "instance_type" {
+  type    = string
+  default = null
+}
